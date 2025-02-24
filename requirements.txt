@@ -1,3 +1,12 @@
 python == 3.13.0
 
 Django==
+
+
+in https://github.com/amlagan/Resto-PIZZA.git
+error: remote origin already exists.
+PS D:\PYTHON\Python\CoursEnLigne\PizzaMamaDjango\pizzamama\pizzamama> git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 276 bytes | 276.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pa
