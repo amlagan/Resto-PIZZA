@@ -1,0 +1,81 @@
+
+:root{
+    --color1: #DD7835;
+    --color2grey:#C8C8C8;
+}
+
+li {
+    color: blue;
+}
+
+body{
+   background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url( "images/menu_background.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:scroll;
+  color:white;
+  font-family:Ariel;
+  margin:0px;
+  line-height:1.5;
+}
+
+#small_logo {
+    margin-top:25px;
+    margin-left:35px;
+}
+
+h1{
+    background-color: var(--color1);
+    display:inline;
+    padding:8px 22px;
+}
+
+.menu_title{
+    margin-top:45px;
+    margin-bottom:50px;
+}
+.menu_list{
+    margin-left:30px;
+
+}
+
+.menu_list_item{
+    margin:30px 0px;
+}
+
+.menu_list_title{
+    display:inline-block;
+    font-family: bold;
+    font-size:20px;
+    width:350px;
+}
+.menu_list_price{
+    display:inline-block;
+    color: var(--color1 );
+    font-size:20px;
+    width:70px;
+    margin-left: 8px;
+    text-align: right;
+}
+
+.menu_list_ingredients{
+    display:block;
+    font-size: 14px;
+    color: var(--color2grey);
+    display:block;
+    margin-top:4px;
+    width:320px;
+}
+
+.menu_list_badge{
+    background-color: var(--color1);
+    display:inline-block;
+    color: black;
+    font-size:9px;
+    padding: 3px 8px;
+    font-weight: bold;
+    margin-top:4px;
+    border-radius:8px;
+}

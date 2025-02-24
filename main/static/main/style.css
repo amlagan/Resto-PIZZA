@@ -1,0 +1,27 @@
+
+body{
+   background: url("images/main_background.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:white;
+  font-family:Ariel;
+  margin:0px;
+  line-height:1.5;
+}
+
+.centered {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%)
+}
+
+a {
+    display:block;
+    color:red;
+    margin-top:15px;
+    text-align:center;
+    font-size:20px;
+}
